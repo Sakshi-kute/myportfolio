@@ -1,0 +1,28 @@
+ AOS.init({
+        offset:400,
+        duration:500,         
+      });
+
+       $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    stagePadding:50,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        },
+        1400:{
+            items:2
+        }
+    }
+})
